@@ -8,3 +8,4 @@
 - [Advanced attribute modification](./notes/advanced_attribute_modification.md)
 - [Hide menu items from from users of a particular group](./notes/hide_menu_items_from_group.md)
 - [The attribute "force_save"](./notes/force_save_attr.md)
+- [Yet another good idea to display a warning on a form view](./notes/yaga_to_display_a_warning_on_a_form_view.md)
