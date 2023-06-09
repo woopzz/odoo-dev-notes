@@ -1,5 +1,10 @@
 # Wkhtmltopdf smart shrinking
 
+> Since v15 there is a field
+> [disable_shrinking](https://github.com/odoo/odoo/blob/15.0/odoo/addons/base/models/report_paperformat.py#L185)
+> for the model `report.paperformat`. It allows you to add the CLI option described below when you need it.
+> You no longer have to write your own patch.
+
 Sometimes you need to create a report with perfect-sized elements.
 For example you have to print a grid of cards 3x4cm as many as A4 paper can fit.
 
