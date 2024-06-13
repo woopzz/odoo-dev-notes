@@ -5,6 +5,7 @@
 - [Time zone settings](./notes/time_zone_settings.md)
 - [Wkhtmltopdf smart shrinking](./notes/wkhtmltopdf_smart_shrinking.md)
 - [Set up fields.Selection:selection by method (supporting inheritance)](./notes/set_up_selection_by_method.md)
+- [<xpath ... position="move">](./notes/position_move.md)
 - [Advanced attribute modification](#advanced-attribute-modification)
 - [Hide menu items from from users of a particular group](./notes/hide_menu_items_from_group.md)
 - [The attribute "force_save"](#the-attribute-force_save)
