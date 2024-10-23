@@ -1,4 +1,4 @@
-# Hide menu items from from users of a particular group
+# Hide menu items from users of a particular group
 
 ```xml
 <record id="ir_ui_menu_rule_sale_manager_cannot_read_configuration" model="ir.rule">
@@ -15,6 +15,8 @@
 
 So the condition fails if the curreny user participates in the sale manager group and he tries to access CRM / Configuration or Sale / Configuration.
 And because this rule is global (no group was provided) if the condition fails, then the current user is not granted an access to these menu items.
+
+There are many more cases where you can apply this trick, but remember that such rules are global and must be followed **always**.
 
 ## There is an important thing why this works
 
